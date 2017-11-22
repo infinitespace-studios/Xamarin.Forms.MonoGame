@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Forms.Platform.MonoGame", "Xamarin.Forms.Platform.MonoGame\Xamarin.Forms.Platform.MonoGame.csproj", "{D1A1616E-6EC9-4593-911E-53687CB96F5B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{62C5916F-BD09-4501-AA66-4FD9B3647ABF}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "FormsSample", "Sample\FormsSample\FormsSample.shproj", "{B2B2A2A2-A398-4DA8-AD72-E3A4A7F00F20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsSample.DesktopGL", "Sample\FormsSample.DesktopGL\FormsSample.DesktopGL.csproj", "{46747074-44BE-415D-93E9-981D0D4EFFA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +19,13 @@ Global
 		{D1A1616E-6EC9-4593-911E-53687CB96F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1A1616E-6EC9-4593-911E-53687CB96F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1A1616E-6EC9-4593-911E-53687CB96F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46747074-44BE-415D-93E9-981D0D4EFFA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46747074-44BE-415D-93E9-981D0D4EFFA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46747074-44BE-415D-93E9-981D0D4EFFA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46747074-44BE-415D-93E9-981D0D4EFFA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2B2A2A2-A398-4DA8-AD72-E3A4A7F00F20} = {62C5916F-BD09-4501-AA66-4FD9B3647ABF}
+		{46747074-44BE-415D-93E9-981D0D4EFFA1} = {62C5916F-BD09-4501-AA66-4FD9B3647ABF}
 	EndGlobalSection
 EndGlobal

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.Xna.Framework;
 using Xamarin.Forms.Internals;
 
 namespace Xamarin.Forms.Platform.MonoGame
@@ -10,6 +11,11 @@ namespace Xamarin.Forms.Platform.MonoGame
 		public IReadOnlyList<Page> ModalStack => throw new NotImplementedException ();
 
 		public IReadOnlyList<Page> NavigationStack => throw new NotImplementedException ();
+
+		internal Platform (Game game)
+		{
+
+		}
 
 		public void Dispose ()
 		{
